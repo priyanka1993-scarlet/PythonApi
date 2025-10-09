@@ -1,0 +1,72 @@
+PS E:\Courseera\Python\API> & E:/Courseera/Python/API/.venv/Scripts/Activate.ps1
+(.venv) PS E:\Courseera\Python\API> & E:/Courseera/Python/API/.venv/Scripts/python.exe e:/Courseera/Python/API/get_order_api.py
+200
+{'orderReference': '30867a34-968f-4591-b787-a078315515e8'}
+201
+{'created': True, 'orderId': 1759976917}
+(.venv) PS E:\Courseera\Python\API> & E:/Courseera/Python/API/.venv/Scripts/python.exe e:/Courseera/Python/API/post_api.py
+201
+{'created': True, 'orderId': 1759976934}
+(.venv) PS E:\Courseera\Python\API> & E:/Courseera/Python/API/.venv/Scripts/python.exe e:/Courseera/Python/API/get_order_api.py
+200
+{'orderReference': '4b0c215f-eed2-4ec3-872f-302cf6774ba8'}
+201
+{'created': True, 'orderId': 1759977133}
+(.venv) PS E:\Courseera\Python\API> 
+ *  History restored 
+
+PS E:\Courseera\Python\API> git remote -v
+origin  https://github.com/priyanka1993-scarlet/PythonApi.git (fetch)
+origin  https://github.com/priyanka1993-scarlet/PythonApi.git (push)
+PS E:\Courseera\Python\API> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS E:\Courseera\Python\API> git add .
+PS E:\Courseera\Python\API> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   api formatted data.csv
+        new file:   get_api.py
+        new file:   get_order_api.py
+        new file:   post_api.py
+        new file:   raw_JSON.json
+
+PS E:\Courseera\Python\API> git commit -m "Version 2"
+[master (root-commit) f7ab234] Version 2
+ 5 files changed, 105 insertions(+)
+ create mode 100644 api formatted data.csv
+ create mode 100644 get_api.py
+ create mode 100644 get_order_api.py
+ create mode 100644 post_api.py
+ create mode 100644 raw_JSON.json
+PS E:\Courseera\Python\API> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+PS E:\Courseera\Python\API> git push --set-upstream origin master
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.62 KiB | 1.62 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/priyanka1993-scarlet/PythonApi/pull/new/master
+remote:
+To https://github.com/priyanka1993-scarlet/PythonApi.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+PS E:\Courseera\Python\API> git push
+Everything up-to-date
+PS E:\Courseera\Python\API> 
