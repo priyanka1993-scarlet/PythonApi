@@ -1,0 +1,29 @@
+{
+    "results": [
+        {
+            "name": "iPhone 12 Pro Blue",
+            "sku": "2020/Iph/12/Blu",
+            "color": "blue"
+        },
+        {
+            "name": "iPhone 12 Pro Red",
+            "sku": "2020/Iph/12/Red",
+            "color": "red"
+        },
+        {
+            "name": "Samsung Galaxy S",
+            "sku": "2020/Sam/GS/Blu",
+            "color": "gray"
+        },
+        {
+            "name": "Samsung Galaxy Note20 Ultra",
+            "sku": "2020/Sam/GN20/Red",
+            "color": "red"
+        },
+        {
+            "name": "Samsung Galaxy S20+",
+            "sku": "2020/Sam/SGS20P/Magenta",
+            "color": "red"
+        }
+    ]
+}
